@@ -3,12 +3,7 @@
 ## コンテナ作成方法</br>
 ```git clone https://github.com/kino-code/docker-python.git (ディレクトリ名を記述)```</br>
 ```cd (ディレクトリ名を記述)```</br>
-```docker-compose up -d```</br></br>
-
-## 確認方法</br>
-cron.logファイルが作成される</br>
-1分毎にcron.logファイルに追記される</br>
-1分毎にcsvファイルが作成される</br>
+```docker-compose up --build -d```</br></br>
 
 ## Dockerの全削除の方法</br>
 Dockerのイメージやコンテナを削除します。下記を上から下まで実行した上で、それを3回繰り返してください。</br>
